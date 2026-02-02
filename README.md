@@ -248,12 +248,7 @@ cat datasets/exams/manifest.json
 ##  Citation
 
 ```bibtex
-@misc{gridwm-judge,
-  title={GridWM-Judge: Evaluating VLM World Models in Embodied Judgment Tasks},
-  author={GridWM-Judge Contributors},
-  year={2025},
-  url={https://github.com/your-repo/gridwm-judge}
-}
+
 ```
 
 ##  Notes
@@ -267,3 +262,4 @@ cat datasets/exams/manifest.json
 ## License
 
 This project is dual-licensed under MIT OR Apache-2.0. See `LICENSE-MIT` and `LICENSE-APACHE`.
+
