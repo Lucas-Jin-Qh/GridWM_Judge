@@ -1,4 +1,4 @@
-# GridWM-Judge: VLM World Model Evaluation Framework
+# GRIDWM-JUDGE: EVALUATING VISION-LANGUAGE MODEL JUDGES IN GRID WORLDS VIA WORLD MODEL DEFICITS
 
 GridWM-Judge is a comprehensive framework for evaluating Vision-Language Models (VLMs) as judges in embodied AI tasks. The framework investigates whether VLM "judging instability" stems from "world model deficits" by testing atomic transition prediction, perception, and judgment robustness across controlled MiniGrid environments.
 
@@ -262,4 +262,5 @@ cat datasets/exams/manifest.json
 ## License
 
 This project is dual-licensed under MIT OR Apache-2.0. See `LICENSE-MIT` and `LICENSE-APACHE`.
+
 
