@@ -1,0 +1,31 @@
+# GridWM-Judge minimal requirements (no ROS/ament dependencies).
+#
+# Notes:
+# - The core dataset build/validation pipeline uses MiniGrid + common scientific Python libs.
+# - Local-model inference backends (Qwen/InternVL/LLaVA) require PyTorch/Transformers; see the optional section.
+
+# Core
+numpy>=1.26
+pillow>=10.0
+gymnasium>=1.0
+minigrid>=3.0
+matplotlib>=3.8
+requests>=2.31
+
+# Remote inference (OpenAI-compatible / proxies / Zhizengzeng)
+openai>=1.0
+
+# Optional: local-model inference backends (install when needed)
+# torch
+# torchvision
+# torchaudio
+# transformers
+# accelerate
+# safetensors
+# qwen-vl-utils
+
+# Optional: evaluation/metrics (not required for core pipeline)
+# bert-score
+# BLEURT (install separately; environment-specific)
+# flash-attn (performance-only; environment-specific)
+
