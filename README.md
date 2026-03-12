@@ -35,20 +35,14 @@ python scripts/score_exam.py
 
 ## Citation
 
-<div align="center">
-  <details>
-    <summary><b>Click to copy BibTeX</b></summary>
-    <br>
-    <div style="background-color: #f6f8fa; border-radius: 6px; padding: 16px; text-align: left;">
-      <pre style="margin: 0; white-space: pre-wrap; word-wrap: break-word;"><code>@inproceedings{zhang2026gridwm,
+```bibtex
+@inproceedings{zhang2026gridwm,
 	title={{GridWM-Judge}: Evaluating Vision-Language Model Judges in Grid Worlds via World Model Deficits},
 	author={Zhang, Qinan and Jin, Qihang},
 	booktitle={ICLR 2026 Workshop on World Models: Understanding, Modelling and Scaling},
 	year={2026}
-}</code></pre>
-    </div>
-  </details>
-</div>
+}
+```
 
 ## License
 
