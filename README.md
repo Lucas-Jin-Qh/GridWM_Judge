@@ -1,4 +1,4 @@
-# GridWM-Judge: Evaluating VLM Judges in Grid Worlds via World Model Deficits
+# <img src="assets/logo.png" width="50"/> GridWM-Judge
 
 A benchmark for evaluating Vision-Language Models (VLMs) as judges in embodied AI tasks. We investigate whether VLM "judging instability" stems from "world model deficits" through three diagnostic tasks.
 
@@ -13,10 +13,10 @@ A benchmark for evaluating Vision-Language Models (VLMs) as judges in embodied A
 **Tasks**: DoorKey, Memory, LavaGap, KeyCorridor, MultiRoom, RedBlueDoor  
 **Trajectory Variants**: Full (success), NoCue (evidence masked), CF (counterfactual failures)
 
-## Quick Start
+## Quick Start 🚀
 
 ```bash
-# Install
+# Install dependencies
 pip install -r requirements.txt
 
 # Generate datasets
@@ -34,6 +34,8 @@ python scripts/score_exam.py
 ```
 
 ## Citation
+
+If you find our work useful, please cite:
 
 ```bibtex
 @inproceedings{zhang2026gridwm,
